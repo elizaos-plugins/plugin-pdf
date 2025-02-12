@@ -4,7 +4,8 @@ import {
   ServiceType
 } from "@elizaos/core";
 import { getDocument } from "pdfjs-dist";
-var _PdfService = class _PdfService extends Service {
+var PdfService = class _PdfService extends Service {
+  static serviceType = ServiceType.PDF;
   constructor() {
     super();
   }
@@ -27,8 +28,6 @@ var _PdfService = class _PdfService extends Service {
     return textPages.join("\n");
   }
 };
-_PdfService.serviceType = ServiceType.PDF;
-var PdfService = _PdfService;
 function isTextItem(item) {
   return "str" in item;
 }
