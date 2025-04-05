@@ -16,6 +16,7 @@
     "tsup.config.ts"
   ],
   "dependencies": {
+    "pdf-lib": "^1.17.1",
     "pdfjs-dist": "4.7.76"
   },
   "devDependencies": {
