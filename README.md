@@ -8,17 +8,17 @@ The Node plugin serves as a foundational component of Eliza OS, bridging core No
 
 ## Features
 
-- **PDF Processing**: PDF text extraction and parsing
-
-// ... existing code ...
+-   **PDF Processing**: PDF text extraction and parsing
+-   **Text to PDF conversion** with flexible output options (save to disk or get as buffer)
 
 ## Services
 
 ### PdfService
 
-Extracts and processes text content from PDF files.
-
-// ... existing code ...
+-   Extracts and processes text content from PDF files
+-   Converts text content to PDF with configurable output options
+    -   Save directly to disk
+    -   Get as buffer for further processing
 
 ## License
 
